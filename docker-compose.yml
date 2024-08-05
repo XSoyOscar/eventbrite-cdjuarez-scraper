@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  event_scraper:
+    build: .
+    container_name: event_scraper
+    volumes:
+      - .:/app
+    command: python -u scrape_events.py
