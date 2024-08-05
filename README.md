@@ -8,6 +8,10 @@ This project is a web scraping application designed to extract upcoming and alre
 - **SQLite Storage**: Stores the data in a SQLite database for easy access and querying.
 - **Docker Execution**: The project is configured to run in a Docker container, ensuring portability and consistency across different environments.
 
+## Why Selenium?
+
+This project uses Selenium instead of tools like BeautifulSoup because the event price on Eventbrite pages is dynamic. It loads a few seconds after the rest of the page content, requiring explicit waits to ensure the data is captured accurately. Selenium provides the necessary functionality to handle such dynamic content effectively.
+
 ## Project Structure
 
 ```plaintext
