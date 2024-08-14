@@ -1,5 +1,10 @@
 # Eventbrite CD Juárez Scraper
 
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![Selenium](https://img.shields.io/badge/Selenium-Used-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 This project is a web scraping application designed to extract upcoming and already listed event data from Eventbrite in Ciudad Juárez, Mexico, and store it in a SQLite database. It is useful for anyone interested in analyzing events in this geographical area.
 
 ## Features
